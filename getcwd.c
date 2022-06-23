@@ -84,7 +84,7 @@ long sys_getcwd(char * buf, size_t size)
         {
                 buf=(char *)malloc(sizeof(char)*size);
         }
-        while(dir!=current->root)
+        while(dir!=current->root || (dir==current->root && dir->i_mount))
         {
                 struct m_inode * inode;
                 int nread;
