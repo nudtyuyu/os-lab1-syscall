@@ -23,17 +23,9 @@ sys_execve2在系统调用返回前，仿照do_no_page的行为，为代码和�
 ```bash
 tar -xzvf os-lab1-syscall.tar.gz
 或者直接解压.zip文件
-```
->运行方法
-```bash
 cd os-lab1-syscall
-cd 0/linux
 make
-cd ../..
-./run
 ```
 
->测试方法
-（to be continue）
 
 
