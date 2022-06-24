@@ -22,6 +22,7 @@ sys_execve2在系统调用返回前，仿照do_no_page的行为，为代码和�
 >安装方法
 ```bash
 tar -xzvf os-lab1-syscall.tar.gz
+或者直接解压.zip文件
 ```
 >运行方法
 ```bash
